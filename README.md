@@ -1,0 +1,81 @@
+# Bonsai Cutting App
+
+This project was created fully using GitHub Copilot, utilizing Copilot's Agent feature for autonomous, multi-step code generation and project setup.
+
+## Prompts Used
+
+Below are all the prompts used to create and refine this project:
+
+1. I want to make a page where i can cut my bonsai. The time will be passing and I need to cut the bad parts.
+2. React and Next.js.
+3. Seems like there is an error
+4. You forgot the use client on the top of the files.
+5. Can you make the Bonsai more veautiful?
+6. Can you make the bonsai leafs to be more life a leaf?
+7. Now we only have 5 leaves. How many you can make?
+8. The tree is small, maybe make slightly bigger? It still needs to fit a mobile screen.
+9. Can you make those leaves better?
+10. Can you make the leaves only a circle back again?
+11. Not overlapping circle, each leaf is one circle.
+12. Now make the circle more leaf format.
+13. More detailed and pointed
+14. Leaf shape and bigger
+15. Can you update the README that this is created fully using GitHub Copilot?
+16. Explain that it is using Agent
+17. Can you type of the readm all the prompts?
+18. Now I want to change the game to have a win condition. For every 10 seconds a new leaf is added. And if you reach 30 green leaves you are a winner.
+19. Now I need that the time for a leaf to turn red is 2 times slower than a new leaf to appear.
+20. What is the fastest time for someone to win the game?
+21. Let's reduce that time. Let's make leaf turn red every 15 seconds.
+22. How long it takes for the fastest time to win?
+23. Let's reduce both times, from 10 seconds to 5 and from 15 seconds to 7 seconds.
+24. Let's reduce 5 to 1 and 7 to 3.
+25. Every bad one if stays for 1 second, it will turn a green one into red. If you get 10 red you lose.
+26. The game is not working now. I can't see new green or red leaves
+27. Now everytime a new red shows it turns all greens into red. That is wrong. The red after 1 second should turn only one green, not all.
+28. When a red shows it is turning all green into red. That is wrong.
+29. Remove the logic that makes the green turn into red.
+30. Now just show red leaves every 1 second.
+31. Now make the healthy one turn into red every 2 seconds.
+32. If a leaf is behind another one, I cannot click. So make the red ones always to the front.
+33. If you have 30 healthy leaves you win only if you have 0 red ones.
+34. I want to be able to configured the options of the game in the screen:
+I have: 
+Number of seconds a Healthy Leaf appears.
+Number of seconds a Bad Leaf appears.
+I have the number of health leaves to win.
+I have the number of bad leaves to lose.
+Please give me a way to change those options in the browser. 
+35. I want to see the number of bad leaves as well on the top together with the Healthy leaves
+36. Can I see the default option as well on the form to change the configurations?
+37. Can you change the number of Healthy Leaves to show to 1 second?
+38. I cannot edit the configuration.
+39. I still cannot change the options.
+40. The font on the inputs, change to green.
+41. The message when you lose or win needs to update based on the config
+42. Add the .gitignore
+43. Create a new repository on github
+44. Add all the prompts to the README
+
+This is a Next.js project where you can interact with a bonsai, cut bad parts as time passes, and enjoy a simple simulation game.
+
+## Getting Started
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Run the development server:
+   ```sh
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Features
+- Visual bonsai representation (SVG)
+- Bad parts appear over time
+- Click to cut/remove bad parts
+
+---
+
+Replace placeholder art/assets as needed for your own bonsai designs!
