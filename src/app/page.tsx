@@ -52,7 +52,7 @@ export default function Home() {
   }, [win, lose]);
 
   // Track how long each bad leaf has been bad
-  const [badTimers, setBadTimers] = useState<{ [id: number]: number }>({});
+  const [, setBadTimers] = useState<{ [id: number]: number }>({});
 
   // Update badTimers every second
   React.useEffect(() => {
